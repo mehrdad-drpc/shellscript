@@ -8,6 +8,13 @@ done
 echo "-------------"
 
 # python style
-for p in {1..10};do
+for p in {1..10}; do
     echo "P is $p"
+done
+
+echo "-------------"
+
+# for in list
+for color in red green blue; do
+    echo "color is $color"
 done

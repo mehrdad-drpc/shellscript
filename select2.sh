@@ -35,7 +35,7 @@ select command in ${commands[@]}; do
         ;;
     "online_users")
         whoison
-    ;;
+        ;;
     "exit")
         break
         ;;

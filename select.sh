@@ -2,7 +2,8 @@
 
 PS3="Enter the value: "
 
-select item in "option1" "option2" "exit"; do
+select item in "option1" "option2" "exit"
+do
     case $item in
     "exit")
         break
