@@ -6,5 +6,7 @@ echo "\$2 your second parameter is $2"
 
 echo "\$# you entered $# input parameter"
 
+echo "\$? current status code is $?"
+
 echo "'\$*' is $*"
 echo "'\$@' is $@"
