@@ -9,4 +9,5 @@
 | $$ | return shell process id |
 | $! | return the PID of the last backgroun process |
 | $- | return current shell status |
-| $* | 
+| [$*](script/dollar@*.sh) | return the input arguments in one line | 
+| [$@](script/dollar@*.sh) | return the input arguments line by line |
