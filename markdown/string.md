@@ -7,6 +7,8 @@
 | {str:-sara} | pring the value of `str` if exists otherwise pring sara |
 | {str:?sara} | pring the value of `str` if exists otherwise pring sara |
 | {#str} | return the str length |
+| ${str%?} | remove the last character |
+| ${str%#} | remove the first character |
 | ${str%A*} | remove the characters after `A` |
 | ${str%A*C} | remove `A-C` from the end of the string |
 | ${str%%A*C} | remove `A-C` from the beginning of the string |
