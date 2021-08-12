@@ -6,10 +6,10 @@
 | [$2](../script/dollars.sh) | refer to the second input argument |
 | [$N](../script/dollars.sh) | refer to the nth input argument |
 | [$?](../script/dollars.sh) | return shell status code/exit code |
-| [$$](../script/dollars.sh) | return shell process id |
-| [$!](../script/dollars.sh) | return the PID of the last backgroun process |
-| [$-](../script/dollars.sh) | return current shell status |
-| [$_](../script/dollars.sh) | return last argument from last command |
-| [!$](../script/dollars.sh) | execute last argument from last command |
+| $$ | return shell process id |
+| $! | return the PID of the last backgroun process |
+| $- | return current shell status |
+| $_ | return last argument from last command |
+| !$ | execute last argument from last command |
 | [$*](../script/dollar@*.sh) | return the input arguments in one line | 
 | [$@](../script/dollar@*.sh) | return the input arguments line by line |
