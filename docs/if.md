@@ -25,14 +25,14 @@
 # The `test` Command File Comparisons
 | Comparison | Description |
 | -- | -- |
-| -d file | Check if file exists and is a directory |
-| -e file | Checks if file exists |
-| -f file | Checks if file exists and is a file |
-| -s file | Checks if file exists and is not empty |
-| -r file | Checks if file exists and is readable |
-| -w file | Checks if file exists and is writable |
-| -x file | Checks if file exists and is executable |
-| -O file | Checks if file exists and is owned by the current user |
-| -G file | Checks if file exists and the default group is the same as the current user |
+| [-d](../code/file_type_check.sh) file | Check if file exists and is a directory |
+| [-e](../code/file_type_check.sh) file | Checks if file exists |
+| [-f](../code/file_type_check.sh) file | Checks if file exists and is a file |
+| [-s](../code/file_type_check.sh) file | Checks if file exists and is not empty |
+| [-r](../code/file_type_check.sh) file | Checks if file exists and is readable |
+| [-w](../code/file_type_check.sh) file | Checks if file exists and is writable |
+| [-x](../code/file_type_check.sh) file | Checks if file exists and is executable |
+| [-O](../code/file_type_check.sh) file | Checks if file exists and is owned by the current user |
+| [-G](../code/file_type_check.sh) file | Checks if file exists and the default group is the same as the current user |
 | file1 -nt file2 | Checks if file1 is newer than file2 |
 | file1 -ot file2 | Checks if file1 is older than file2 |
