@@ -8,7 +8,7 @@ done
 echo "-------------"
 
 # python style
-for p in {1..10}; do
+for p in {1..20..2}; do
     echo "P is $p"
 done
 
