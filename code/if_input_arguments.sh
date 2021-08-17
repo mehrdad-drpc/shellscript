@@ -13,7 +13,7 @@ elif [ $1 = "stop" ];then
 elif [ $1 = "restart" ];then
     echo "going to restart service..."
 elif [ $1 = "status" ];then
-    ehco "going to status service..."
+    echo "going to status service..."
 else
     echo "sub-commnad is not found."
     exit 1
