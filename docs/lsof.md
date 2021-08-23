@@ -9,3 +9,11 @@
 | **SIZE** | If available, the size of the file |
 | **NODE** | The inode number of the local file |
 | **NAME** | The name of the file |
+
+---
+
+## Example:
+- lsof -a -p $$ -d 0,1,2
+    - **-a:** means *and* conditions together
+    - **-p:** lsof condition over the specific process
+    - **-d:** select some file discriptior
