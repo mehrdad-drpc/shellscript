@@ -27,7 +27,7 @@ myFunc0
 echo
 
 echo "function 1"
-myFunc1 mehrdad arash leila
+myFunc1 mehrdad radin leila
 myFunc1
 
 echo

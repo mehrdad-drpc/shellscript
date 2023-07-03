@@ -1,8 +1,9 @@
 # The test Numeric Comparisons
+
 | Comparison | Description |
 | -- | -- |
 | n1 -eq n2 | Check if n1 is equal to n2 |
-| n1 -ge n2 | Check if n1 is greater than or equal to n2 | 
+| n1 -ge n2 | Check if n1 is greater than or equal to n2 |
 | n1 -gt n2 | Check if n1 is greater than n2 |
 | n1 -le n2 | Check if n1 is less than or equal to n2 |
 | n1 -lt n2 | Check if n1 is less than n2 |
@@ -11,6 +12,7 @@
 ---
 
 # String comparisons
+
 | Comparison | Description |
 | -- | -- |
 | str1 = str2  | Check if str1 is the same as string str2 |
@@ -23,6 +25,7 @@
 ---
 
 # The `test` Command File Comparisons
+
 | Comparison | Description |
 | -- | -- |
 | [-d](../code/file_type_check.sh) file | Check if file exists and is a directory |
